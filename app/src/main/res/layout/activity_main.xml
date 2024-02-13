@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="284dp"
+        android:layout_height="151dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484">
+
+        <Button
+            android:id="@+id/bt1"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/yellow"
+            android:onClick="check" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textColor="@color/yellow"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="105dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/tic" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/orange"
+        android:text="New Game"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <Button
+        android:id="@+id/cleargame"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/orange"
+        android:text="CLEAR"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/orange"
+        android:text="LOG OUT"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+    <ImageView
+        android:id="@+id/personal"
+        android:layout_width="59dp"
+        android:layout_height="109dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/personallogo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
